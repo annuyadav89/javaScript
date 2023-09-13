@@ -10,3 +10,12 @@
     });
     console.log("original",arr);
     console.log("new" , result);
+     
+
+    //square rootn
+
+    var arr = [1,9,16,36,25];
+    var sqrtOfarr =  arr.map(function(num){
+        return Math.sqrt(num);
+    });
+    console.log(sqrtOfarr);
