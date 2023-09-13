@@ -1,0 +1,6 @@
+reduce 
+//It will not change the original array 
+//final result will return one single value 
+//it consists of two paraemters 
+       a --> return result 
+       b --> new iteration value 
