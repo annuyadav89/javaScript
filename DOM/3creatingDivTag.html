@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="head">
+
+        </div>
+        <div id="demo">
+
+        </div>
+        <script>
+            //creating p tag
+            var creatingofTag = document.createElement('p');
+            //creating text content
+            var creatingTextNode = document.createTextNode('welcome to javascript');
+            //merge the tag with text content 
+           creatingofTag.appendChild(creatingTextNode);
+          
+            var demo = document.getElementById('demo');
+            demo.appendChild(creatingofTag);
+
+            
+            var createHead = document.createElement("h1");
+            var createTextOfHead = document.createTextNode("How are you Dharmishth..?");
+            createHead.appendChild(createTextOfHead);
+            var headId = document.getElementById('head');
+            headId.appendChild(createHead);
+
+        </script>
+    </body>
+</html>
